@@ -1,0 +1,87 @@
+.glossar--content-box {
+    .unitize-margin(20, 0);
+
+    .glossar--group {
+        .unitize(margin-bottom, 20);
+        .clearfix();
+    }
+
+    .glossar--column {
+        .unitize-margin(0, 25);
+
+        float: left;
+        width: 90%;
+
+        h2.glossar--column-headline {
+            .unitize(margin-bottom, 12);
+
+            color: @glossar-letter-color;
+            border-bottom: 1px solid #dadae5;
+        }
+    }
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+    .content--wrapper {
+        .glossar--column {
+            width: 26%;
+        }
+    }
+}
+
+@media screen and (min-width: @desktopViewportWidth) {
+    .content--wrapper {
+        .unitize(margin-left, 260);
+
+        .glossar--column {
+            width: 27%;
+        }
+    }
+}
+
+.glossar--content {
+    .unitize(margin-top, 45);
+    .border-radius(3px);
+
+    float: left;
+    border: 1px solid #dadae5;
+    width: 100%;
+
+    .glossar--headline {
+        .unitize(margin, 15);
+        .unitize(padding-bottom, 10);
+
+        color: @glossar-headline-color;
+        border-bottom: 1px solid #dadae5;
+    }
+}
+
+.glossar--column li:first-child {
+    .unitize(padding-bottom, 1);
+}
+
+a.glossar--column-keyword {
+    .unitize(margin-bottom, 1);
+    .unitize(height, 24);
+    .unitize(padding-left, 5);
+    .unitize(padding-right, 5);
+
+    cursor: pointer;
+    display: block;
+    color: #ffffff;
+    line-height: 24px;
+}
+
+.glossar--column-content {
+    .unitize(margin-bottom, 8);
+    .unitize(padding, 10);
+
+    border: 1px solid #c7c7c7;
+    border-top: 0 none;
+    color: @glossar-content-color;
+    word-break: break-all;
+}
+
+.glossar--entry {
+    list-style: none;
+}

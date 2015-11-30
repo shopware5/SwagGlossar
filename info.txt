@@ -1,0 +1,3 @@
+Mit diesem Plugin können Sie Begriffe im Shopware Backend pflegen und diese mit Erläuterungen versehen.
+
+Diese Begriffe werden im Artikel-Beschreibungstext der Storefront als Hyperlinks gekennzeichnet. Die jeweilige Erklärung des Begriffs wird durch einen Mouse-Over-Effekt dargestellt.

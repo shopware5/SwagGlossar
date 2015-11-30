@@ -1,0 +1,59 @@
+.ctl_GlossarInventory #content {
+    margin: 5px 0 0;
+}
+
+div.glossar-content {
+    padding: 10px;
+    border: 1px solid #c7c7c7;
+    border-top: 0 none;
+    margin: 0 0 8px;
+}
+
+.column {
+    float: left;
+    width: 200px;
+    margin: 0 25px;
+}
+
+.row {
+    margin: 0 0 20px;
+}
+
+h1.headline {
+    font: 24px/1.6 Verdana, Arial, sans-serif;
+    color: #333;
+}
+
+h2.letter {
+    color: #333;
+    border-bottom: 1px solid #c7c7c7;
+    margin: 0 0 12px;
+}
+
+.ctl_GlossarInventory #content h2.headingbox_nobg {
+    margin: 0 5px !important;
+}
+
+a.keyword {
+    cursor: pointer;
+    display: block;
+    color: #fff;
+    padding: 0 5px;
+    line-height: 24px;
+    height: 24px;
+    margin: 0 0 1px;
+}
+
+a.keyword:hover {
+    text-decoration: none
+}
+
+a.glossar-active {
+    font-weight: 700;
+    margin: 0;
+}
+
+div.content_box {
+    border: 1px solid #c7c7c7;
+    margin: 0 5px 5px 5px;
+}
