@@ -11,19 +11,6 @@
 
     "currentVersion": "1.4.1",
 
-    "changelog": {
-        "de": {
-            "1.4.1": "PT-3203 - Bugfix: Aufzählungssymbole auf der Detailseite;",
-            "1.4.0": "PT-2926 - Feature: Shopware 5 Kompatibilität;",
-            "1.3.5": "Update Methode und Übersetzungen gefixt;"
-        },
-        "en": {
-            "1.4.1": "PT-3203 - Bugfix: Listing symbols on the detail page;",
-            "1.4.0": "PT-2926 - Feature: Shopware 5 compatibility;",
-            "1.3.5": "fixed update method and translations;"
-        }
-    },
-
     "compatibility": {
         "minimumVersion": "4.1.0",
         "maximumVersion": null,

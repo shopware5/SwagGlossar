@@ -1,5 +1,8 @@
 # SwagGlossar
 
+## Supported versions
+Shopware version 4.1.0 or higher
+
 ## Description
 Use this plugin to provide additional information (i.e. a definition) when a customer rolls over a select term with their mouse in the item description.
 All terms can be defined and managed in one central overview in the backend. 
